@@ -1,0 +1,32 @@
+    <div class="progress_bar" ng-show="policiesByRegion[region][policiesActiveTab].premiumGenerated.data[$index]" ng-repeat="item in policiesByRegion[region][policiesActiveTab].premiumGenerated.categories">
+    <div class="label">
+    <div class="pull-left gray">{{item}}</div>
+    <div class="pull-right blue">{{policiesByRegion[region][policiesActiveTab].premiumGenerated.data[$index] |number :0}}</div>
+    </div>
+    <div class="progress" style="clear:both;">
+    <span ng-show = "policiesActiveTab=='allAreas'"
+          ng-style="{position: 'absolute', background: '#019EE3' ,top: 0 ,bottom: 0,
+width: ((getActualCategoryData(policiesByRegion,policiesActiveTab,'urbanAreas' ,$index) *100 )/
+         policiesByRegion[region][policiesActiveTab].premiumGenerated.totalPremiumGenerated)+
+         ((getActualCategoryData(policiesByRegion,policiesActiveTab,'ruralAreas' ,$index)  *100 )
+         /policiesByRegion[region][policiesActiveTab].premiumGenerated.totalPremiumGenerated) +'%'}">
+
+
+    </span>
+    <div ng-show = "policiesActiveTab=='allAreas'" class="progress-bar" role="progressbar" aria-valuenow="20"
+    aria-valuemin="0" aria-valuemax="100"
+         ng-style = "{position: 'absolute', background: '#291d67',
+     width:((getActualCategoryData(policiesByRegion,policiesActiveTab,'ruralAreas' ,$index) *100)
+     /policiesByRegion[region][policiesActiveTab].premiumGenerated.totalPremiumGenerated)+'%'}">
+    <span class="sr-only">40% Complete</span>
+    </div>
+    <div ng-show = "policiesActiveTab!='allAreas'" class="progress-bar" role="progressbar" aria-valuenow="20"
+    aria-valuemin="0" aria-valuemax="100"
+         ng-style = "{position: 'absolute',background: (policiesActiveTab=='ruralAreas'?'#291d67':'#019EE3'),
+    width:((policiesByRegion[region][policiesActiveTab].premiumGenerated.data[$index] *100 )
+    /policiesByRegion[region][policiesActiveTab].premiumGenerated.totalPremiumGenerated)+'%'}">
+    <span class="sr-only">40% Complete</span>
+    </div>
+    </div>
+
+    </div>

@@ -1,0 +1,388 @@
+[
+  {
+    "region": "DELHI-NCR",
+    "boundPolicies": {
+      "allAreas": {
+        "premiumGenerated": {
+          "categories": [
+            "AUD",
+            "EUR",
+            "GBP",
+            "USD",
+            "CAD",
+            "NOK"
+          ],
+          "data": [
+            145510.61,
+            137378.47,
+            72668.73,
+            1924735.5,
+            53679.63,
+            18750.0
+          ],
+          "totalPremiumGenerated": 2329146
+        },
+        "numberOfPolicies": {
+          "categories": [
+            "JAN 2016",
+            "DEC 2015",
+            "JAN 2015"
+          ],
+          "data": [
+            218,
+            45,
+            43
+          ]
+        },
+        "premiumGrowth": {
+          "categories": [
+            "JAN 2016",
+            "DEC 2015",
+            "JAN 2015"
+          ],
+          "data": [
+            232946.2,
+            2350.0,
+            99
+          ]
+        }
+      },
+      "ruralAreas": {
+        "premiumGenerated": {
+          "categories": [
+            "AUD",
+            "EUR",
+            "GBP",
+            "CAD",
+            "USD",
+            "NOK"
+          ],
+          "data": [
+            15410.99,
+            99546.77,
+            56760.72,
+            43220.5,
+            1142050.5,
+            18750.0
+          ],
+          "totalPremiumGenerated": 1379165
+        },
+        "numberOfPolicies": {
+          "categories": [
+            "JAN 2016",
+            "DEC 2015",
+            "JAN 2015"
+          ],
+          "data": [
+            128,
+            3,
+            5
+          ]
+        },
+        "premiumGrowth": {
+          "categories": [
+            "JAN 2016",
+            "DEC 2015",
+            "JAN 2015"
+          ],
+          "data": [
+            1379165.4,
+            12,
+            14
+          ]
+        }
+      },
+      "urbanAreas": {
+        "premiumGenerated": {
+          "categories": [
+            "AUD",
+            "EUR",
+            "GBP",
+            "USD",
+            "CAD"
+          ],
+          "data": [
+            130099.625,
+            37831.7,
+            15908.01,
+            782684.8,
+            10459.13
+          ],
+          "totalPremiumGenerated": 949980
+        },
+        "numberOfPolicies": {
+          "categories": [
+            "JAN 2016",
+            "DEC 2015",
+            "JAN 2015"
+          ],
+          "data": [
+            90,
+            1,
+            7
+          ]
+        },
+        "premiumGrowth": {
+          "categories": [
+            "JAN 2016",
+            "DEC 2015",
+            "JAN 2015"
+          ],
+          "data": [
+            949981.0,
+            2350.0,
+            65
+          ]
+        }
+      }
+    }
+  },
+  {
+    "region": "MUMBAI",
+    "boundPolicies": {
+      "allAreas": {
+        "premiumGenerated": {
+          "categories": [
+            "EUR",
+            "GBP",
+            "USD",
+            "CAD",
+            "NOK"
+          ],
+          "data": [
+            "137378.47",
+            "72668.73",
+            "1132064.5",
+            "53679.63",
+            "18750.0"
+          ],
+          "totalPremiumGenerated": 1430278
+        },
+        "numberOfPolicies": {
+          "categories": [
+            "JAN 2016",
+            "DEC 2015",
+            "JAN 2015"
+          ],
+          "data": [
+            "141",
+            "1",
+            "9"
+          ]
+        },
+        "premiumGrowth": {
+          "categories": [
+            "JAN 2016",
+            "DEC 2015",
+            "JAN 2015"
+          ],
+          "data": [
+            "1430278.8",
+            "2350.0",
+            "0.0"
+          ]
+        }
+      },
+      "ruralAreas": {
+        "premiumGenerated": {
+          "categories": [
+            "EUR",
+            "GBP",
+            "CAD",
+            "USD",
+            "NOK"
+          ],
+          "data": [
+            99546.77,
+            56760.72,
+            43220.5,
+            576250.7,
+            18750.0
+          ],
+          "totalPremiumGenerated": 802118
+        },
+        "numberOfPolicies": {
+          "categories": [
+            "JAN 2016",
+            "DEC 2015",
+            "JAN 2015"
+          ],
+          "data": [
+            83,
+            4,
+            7
+          ]
+        },
+        "premiumGrowth": {
+          "categories": [
+            "JAN 2016",
+            "DEC 2015",
+            "JAN 2015"
+          ],
+          "data": [
+            "802118.3",
+            "8",
+            "5"
+          ]
+        }
+      },
+      "urbanAreas": {
+        "premiumGenerated": {
+          "categories": [
+            "EUR",
+            "GBP",
+            "USD",
+            "CAD"
+          ],
+          "data": [
+            "37831.7",
+            "15908.01",
+            "555813.6",
+            "10459.13"
+          ],
+          "totalPremiumGenerated": 628160
+        },
+        "numberOfPolicies": {
+          "categories": [
+            "JAN 2016",
+            "DEC 2015",
+            "JAN 2015"
+          ],
+          "data": [
+            "58",
+            "1",
+            "45"
+          ]
+        },
+        "premiumGrowth": {
+          "categories": [
+            "JAN 2016",
+            "DEC 2015",
+            "JAN 2015"
+          ],
+          "data": [
+            "628160.25",
+            "2350.0",
+            "78"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "region": "KOLKATA",
+    "boundPolicies": {
+      "allAreas": {
+        "premiumGenerated": {
+          "categories": [
+            "AUD",
+            "USD"
+          ],
+          "data": [
+            "145510.61",
+            "792671.06"
+          ],
+          "totalPremiumGenerated": 898867
+        },
+        "numberOfPolicies": {
+          "categories": [
+            "JAN 2016",
+            "DEC 2015",
+            "JAN 2015"
+          ],
+          "data": [
+            "77",
+            "6",
+            "7"
+          ]
+        },
+        "premiumGrowth": {
+          "categories": [
+            "JAN 2016",
+            "DEC 2015",
+            "JAN 2015"
+          ],
+          "data": [
+            "898867.6",
+            "0.0",
+            "0.0"
+          ]
+        }
+      },
+      "ruralAreas": {
+        "premiumGenerated": {
+          "categories": [
+            "AUD",
+            "USD"
+          ],
+          "data": [
+            "15410.99",
+            "565799.75"
+          ],
+          "totalPremiumGenerated": 577047
+        },
+        "numberOfPolicies": {
+          "categories": [
+            "JAN 2016",
+            "DEC 2015",
+            "JAN 2015"
+          ],
+          "data": [
+            "45",
+            "0",
+            "0"
+          ]
+        },
+        "premiumGrowth": {
+          "categories": [
+            "JAN 2016",
+            "DEC 2015",
+            "JAN 2015"
+          ],
+          "data": [
+            "577047.0",
+            "0.0",
+            "0.0"
+          ]
+        }
+      },
+      "urbanAreas": {
+        "premiumGenerated": {
+          "categories": [
+            "AUD",
+            "USD"
+          ],
+          "data": [
+            "130099.625",
+            "226871.2"
+          ],
+          "totalPremiumGenerated": 321820
+        },
+        "numberOfPolicies": {
+          "categories": [
+            "JAN 2016",
+            "DEC 2015",
+            "JAN 2015"
+          ],
+          "data": [
+            "32",
+            "0",
+            "0"
+          ]
+        },
+        "premiumGrowth": {
+          "categories": [
+            "JAN 2016",
+            "DEC 2015",
+            "JAN 2015"
+          ],
+          "data": [
+            "321820.6",
+            "0.0",
+            "0.0"
+          ]
+        }
+      }
+    }
+  }
+]

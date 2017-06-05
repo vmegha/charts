@@ -1,0 +1,161 @@
+[{
+  "city": "DELHI-NCR",
+  "region": "all",
+  "strikeRate": {
+    "quotations": 637,
+    "boundPolicies": 218,
+    "notTakenUp": 12,
+    "declined": 0
+  },
+  "topBarData":[
+       {
+         "type": "Faucets",
+        "premium": "Rs 334 Thousand",
+        "maximum": "Up 13 Thousand"
+      },
+      { "type": "Toilets",
+        "premium": "Rs 52 Thousand",
+        "maximum": "Down 3 Thousand"
+      },
+      {
+        "type" : "Sinks",
+        "premium": "Rs 1234 Thousand",
+        "maximum": "Up 123 Thousand"
+      },
+      {
+        "type": "Showering",
+        "premium": "Rs 256 Thousand",
+        "maximum": "Up 13 Thousand"
+
+      }
+
+  ],
+  "personInfo":[
+      {
+        "firstName": "John",
+        "lastName": "Doe",
+        "email": "john@example.com"
+
+      },
+      {
+        "firstName": "Mary",
+        "lastName": "Moe",
+        "email": "mary@example.com"
+
+      },
+      {
+        "firstName": "July",
+        "lastName": "Dooley",
+        "email": "july@example.com"
+
+      }
+  ]
+
+
+}, {
+  "city": "MUMBAI",
+  "region": "MUMBAI",
+  "strikeRate": {
+      "quotations": 437,
+      "boundPolicies": 141,
+      "notTakenUp": 9,
+      "declined": 0
+  },
+  "topBarData":[
+      {
+        "type": "Faucets",
+        "premium": "Rs 134 Thousand",
+        "maximum": "Up 90 Thousand"
+      },
+      { "type": "Toilets",
+        "premium": "Rs 152 Thousand",
+        "maximum": "Down 32 Thousand"
+      },
+      {
+        "type" : "Sinks",
+        "premium": "Rs 34 Thousand",
+        "maximum": "Up 3 Thousand"
+      },
+      {
+        "type": "Showering",
+        "premium": "Rs 256 Thousand",
+        "maximum": "Up 13 Thousand"
+
+      }
+
+  ],
+  "personInfo":[
+    {
+      "firstName": "Megha",
+      "lastName": "Doe",
+      "email": "john@example.com"
+
+    },
+    {
+      "firstName": "Aarzoo",
+      "lastName": "Moe",
+      "email": "mary@example.com"
+
+    },
+    {
+      "firstName": "Nidhi",
+      "lastName": "Dooley",
+      "email": "july@example.com"
+
+    }
+  ]
+
+}, {
+  "city": "KOLKATA",
+  "region": "KOLKATA",
+  "strikeRate": {
+    "quotations": 200,
+    "boundPolicies": 77,
+    "notTakenUp": 3,
+    "declined": 0
+  },
+  "topBarData":[
+      {
+        "type": "Faucets",
+        "premium": "Rs 200 Thousand",
+        "maximum": "Up 10 Thousand"
+      },
+      { "type": "Toilets",
+        "premium": "Rs 12 Thousand",
+        "maximum": "Down 34 Thousand"
+      },
+      {
+        "type" : "Sinks",
+        "premium": "Rs 124 Thousand",
+        "maximum": "Up 120 Thousand"
+      },
+      {
+        "type": "Showering",
+        "premium": "Rs 56 Thousand",
+        "maximum": "Up 133 Thousand"
+
+      }
+
+  ],
+  "personInfo":[
+    {
+      "firstName": "Sneha",
+      "lastName": "Verma",
+      "email": "john@example.com"
+
+    },
+    {
+      "firstName": "Khushal",
+      "lastName": "Tondon",
+      "email": "mary@example.com"
+
+    },
+    {
+      "firstName": "Rahul",
+      "lastName": "Sharma",
+      "email": "july@example.com"
+
+    }
+  ]
+
+}]
