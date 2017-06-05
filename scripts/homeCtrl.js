@@ -80,7 +80,7 @@
 
             $scope.showCityWiseData = function(){
                 var cityWiseDataSvc = shipOwnerService.callFunc(urlConfig.cityWiseData);
-                cityWiseDataSvc.post().then(function(data){
+                cityWiseDataSvc.get().then(function(data){
                     $scope.cityWiseData = data;
                     $scope.changeLocation($scope.cityName);
                 },
@@ -115,7 +115,7 @@
             }
 
 
-            boundSvc.post().then(function(data){
+            boundSvc.get().then(function(data){
                     $scope.boundPolicies=data;
                      $scope.getBoundPoliciesFromRegion();
                     },

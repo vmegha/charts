@@ -6,7 +6,7 @@
 
     angular.module('shipOwner').factory('urlConfig', [function () {
        // var productionUrl = "http://54.229.87.40/sqr/services";
-        var productionUrl = "./";
+        var productionUrl = "";
 
         var urlConfig;
         urlConfig = {
